@@ -39,12 +39,19 @@ git clone https://github.com/LTV1103/English-Course-BE.git
 ```
 
 ### Configure database
+1. Create a new MySQL database.
 
+```sql
+CREATE DATABASE english_course_test;
+```
 
+2. Import the SQL file located in the project.
 
+```
+db_english_course_test.sql
+```
 
-## ⚙️ Configuration
-
+### .env
 Before running the application, create a `.env` file in the project root and configure the following environment variables.
 
 ### Required Environment Variables
